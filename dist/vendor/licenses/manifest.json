@@ -1,0 +1,406 @@
+{
+  "checked_on": "2026-11-10",
+  "scope": "Bundled wheels, library notices, runtime and external font notices; not a license for Raumwerk itself.",
+  "components": [
+    {
+      "name": "micropip",
+      "version": "0.11.1",
+      "license": "MPL-2.0",
+      "archive": "micropip-0.11.1-py3-none-any.whl",
+      "sha256": "e2d52886594fd4cd0d0847110a1c34ae0134d3a970eb4496d3b5eb31ee2d8af6",
+      "source": "https://github.com/pyodide/micropip/tree/0.11.1",
+      "license_files": [
+        "micropip/micropip-0.11.1.dist-info/licenses/LICENSE",
+        "micropip/micropip/_vendored/packaging/LICENSE",
+        "micropip/micropip/_vendored/packaging/LICENSE.APACHE",
+        "micropip/micropip/_vendored/packaging/LICENSE.BSD",
+        "micropip/micropip/_vendored/packaging/src/packaging/licenses/__init__.py"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "license": "BSD-3-Clause",
+      "archive": "mpmath-1.4.1-py3-none-any.whl",
+      "sha256": "e5ebd537e74b9066341a5152e83b63ff2fc37a6388fa7351e766b6e4640f7eee",
+      "source": "https://github.com/mpmath/mpmath/tree/1.4.1",
+      "license_files": [
+        "mpmath/mpmath-1.4.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf",
+      "source": "https://github.com/numpy/numpy/tree/v2.4.6",
+      "license_files": [
+        "numpy/numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+        "numpy/numpy/ma/LICENSE",
+        "numpy/numpy/random/LICENSE.md"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "license": "BSD-3-Clause (with bundled MIT notices)",
+      "archive": "sympy-1.14.0-py3-none-any.whl",
+      "sha256": "61ea8bb98049ba1c702ba3ad2607acb7ab94b9af0b6f97498741f50d3249f428",
+      "source": "https://github.com/sympy/sympy/tree/sympy-1.14.0",
+      "license_files": [
+        "sympy/sympy-1.14.0.dist-info/licenses/AUTHORS",
+        "sympy/sympy-1.14.0.dist-info/licenses/LICENSE",
+        "sympy/sympy/parsing/latex/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Pyodide",
+      "version": "314.0.7",
+      "license": "MPL-2.0",
+      "source": "https://github.com/pyodide/pyodide/tree/314.0.7",
+      "license_file": "../pyodide/PYODIDE-LICENSE.txt"
+    },
+    {
+      "name": "CPython",
+      "version": "3.14.2",
+      "license": "PSF-2.0 and historical notices",
+      "source": "https://github.com/python/cpython/tree/v3.14.2"
+    },
+    {
+      "name": "Emscripten",
+      "version": "5.0.3",
+      "license": "MIT OR NCSA; additional musl notices",
+      "source": "https://github.com/emscripten-core/emscripten/tree/5.0.3"
+    },
+    {
+      "name": "Three.js / OrbitControls",
+      "version": "0.180.0",
+      "license": "MIT",
+      "source": "https://github.com/mrdoob/three.js/tree/r180"
+    },
+    {
+      "name": "SheetJS CE",
+      "version": "0.20.3",
+      "license": "Apache-2.0",
+      "source": "https://cdn.sheetjs.com/xlsx-0.20.3/package/"
+    },
+    {
+      "name": "DM Sans",
+      "delivery": "External Google Fonts request, not bundled",
+      "license": "OFL-1.1",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt"
+    },
+    {
+      "name": "JetBrains Mono",
+      "delivery": "External Google Fonts request, not bundled",
+      "license": "OFL-1.1",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/OFL.txt"
+    }
+  ],
+  "license_files": [
+    {
+      "path": "cpython/LICENSE.txt",
+      "sha256": "b0e25a78cffb43f4d92de8b61ccfa1f1f98ecbc22330b54b5251e7b6ba010231",
+      "origin": "https://raw.githubusercontent.com/python/cpython/v3.14.2/LICENSE"
+    },
+    {
+      "path": "emscripten/LICENSE.txt",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "origin": "https://raw.githubusercontent.com/emscripten-core/emscripten/5.0.3/LICENSE"
+    },
+    {
+      "path": "emscripten/musl-COPYRIGHT.txt",
+      "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "origin": "https://raw.githubusercontent.com/emscripten-core/emscripten/5.0.3/system/lib/libc/musl/COPYRIGHT"
+    },
+    {
+      "path": "fonts/DM-Sans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "origin": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt"
+    },
+    {
+      "path": "fonts/JetBrains-Mono-OFL.txt",
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+      "origin": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/OFL.txt"
+    },
+    {
+      "path": "micropip/micropip-0.11.1.dist-info/licenses/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "origin": {
+        "archive": "micropip-0.11.1-py3-none-any.whl",
+        "member": "micropip-0.11.1.dist-info/licenses/LICENSE",
+        "archive_sha256": "e2d52886594fd4cd0d0847110a1c34ae0134d3a970eb4496d3b5eb31ee2d8af6"
+      }
+    },
+    {
+      "path": "micropip/micropip/_vendored/packaging/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "origin": {
+        "archive": "micropip-0.11.1-py3-none-any.whl",
+        "member": "micropip/_vendored/packaging/LICENSE",
+        "archive_sha256": "e2d52886594fd4cd0d0847110a1c34ae0134d3a970eb4496d3b5eb31ee2d8af6"
+      }
+    },
+    {
+      "path": "micropip/micropip/_vendored/packaging/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "origin": {
+        "archive": "micropip-0.11.1-py3-none-any.whl",
+        "member": "micropip/_vendored/packaging/LICENSE.APACHE",
+        "archive_sha256": "e2d52886594fd4cd0d0847110a1c34ae0134d3a970eb4496d3b5eb31ee2d8af6"
+      }
+    },
+    {
+      "path": "micropip/micropip/_vendored/packaging/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "origin": {
+        "archive": "micropip-0.11.1-py3-none-any.whl",
+        "member": "micropip/_vendored/packaging/LICENSE.BSD",
+        "archive_sha256": "e2d52886594fd4cd0d0847110a1c34ae0134d3a970eb4496d3b5eb31ee2d8af6"
+      }
+    },
+    {
+      "path": "micropip/micropip/_vendored/packaging/src/packaging/licenses/__init__.py",
+      "sha256": "d71e4cd671188dc83011b2edd1d5f0cf6ba48ebd7c0e20b30b4b2b690a89f96c",
+      "origin": {
+        "archive": "micropip-0.11.1-py3-none-any.whl",
+        "member": "micropip/_vendored/packaging/src/packaging/licenses/__init__.py",
+        "archive_sha256": "e2d52886594fd4cd0d0847110a1c34ae0134d3a970eb4496d3b5eb31ee2d8af6"
+      }
+    },
+    {
+      "path": "mpmath/mpmath-1.4.1.dist-info/licenses/LICENSE",
+      "sha256": "01cb9dc26c9afd5804c2ebf72f9ef03b5fd48972875ed59a483a45f441971f1e",
+      "origin": {
+        "archive": "mpmath-1.4.1-py3-none-any.whl",
+        "member": "mpmath-1.4.1.dist-info/licenses/LICENSE",
+        "archive_sha256": "e5ebd537e74b9066341a5152e83b63ff2fc37a6388fa7351e766b6e4640f7eee"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+      "sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy/_core/include/numpy/random/LICENSE.txt",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy/ma/LICENSE",
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy/ma/LICENSE",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "numpy/numpy/random/LICENSE.md",
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "origin": {
+        "archive": "numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "member": "numpy/random/LICENSE.md",
+        "archive_sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf"
+      }
+    },
+    {
+      "path": "sympy/sympy-1.14.0.dist-info/licenses/AUTHORS",
+      "sha256": "82b1038521b0696c63c90b31ed4a0a2c9c4c16871c648b157b07ca44b6f18f8d",
+      "origin": {
+        "archive": "sympy-1.14.0-py3-none-any.whl",
+        "member": "sympy-1.14.0.dist-info/licenses/AUTHORS",
+        "archive_sha256": "61ea8bb98049ba1c702ba3ad2607acb7ab94b9af0b6f97498741f50d3249f428"
+      }
+    },
+    {
+      "path": "sympy/sympy-1.14.0.dist-info/licenses/LICENSE",
+      "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286",
+      "origin": {
+        "archive": "sympy-1.14.0-py3-none-any.whl",
+        "member": "sympy-1.14.0.dist-info/licenses/LICENSE",
+        "archive_sha256": "61ea8bb98049ba1c702ba3ad2607acb7ab94b9af0b6f97498741f50d3249f428"
+      }
+    },
+    {
+      "path": "sympy/sympy/parsing/latex/LICENSE.txt",
+      "sha256": "007bc30a58fa40a996e772047120de4eaf31f5110e4f9c3b5f93fcdfbe2eaca1",
+      "origin": {
+        "archive": "sympy-1.14.0-py3-none-any.whl",
+        "member": "sympy/parsing/latex/LICENSE.txt",
+        "archive_sha256": "61ea8bb98049ba1c702ba3ad2607acb7ab94b9af0b6f97498741f50d3249f428"
+      }
+    }
+  ]
+}
